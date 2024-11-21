@@ -140,13 +140,42 @@
                     </div>                                   
                 </div>
             </section>
-
+            <section class="section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="bd-grid contact__container">
+                  <form id="contactForm" class="contact__form">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your Name"
+                      class="contact__input"
+                      required
+                    />
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Your Email"
+                      class="contact__input"
+                      required
+                    />
+                    <textarea
+                      name="message"
+                      placeholder="Your Message"
+                      class="contact__input"
+                      rows="6"
+                      required
+                    ></textarea>
+                    <button type="submit" class="button contact__button">Send</button>
+                  </form>
+                </div>
+              </section>
+              
         </main>
         <footer class="footer">
             
             <p class="footer__copy">&#169; bahaeddine-saim. All rigths reserved</p>
         </footer>      
         <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="assets/js/main.js"></script>       
     </body>
 </html>
